@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d591606d06ab494da5d406751d565ec5" Name="Diagram1">
+        <EntityTypeShape EntityType="DEMModel.Client" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.ClientService" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.Gender" Width="1.5" PointX="1.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.Service" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.ServicePhoto" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMModel.Tag" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <AssociationConnector Association="DEMModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
