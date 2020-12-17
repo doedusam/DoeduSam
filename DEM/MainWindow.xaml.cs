@@ -24,5 +24,10 @@ namespace DEM
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
